@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, nav{
+    font-family: "Teko";
+}
+nav a{
+    letter-spacing: 3px;
+}
+h4, h5, p, b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #17161A;
+    overflow-x: hidden;
+}
+
+/*navbar*/
+@media(max-width: 991px){
+	.sidebar{
+		background-color: rgba(255, 255, 255, 0.194) !important;
+		backdrop-filter: blur(10px);
+	}
+}
+/*end navbar*/
+.pao_crumb{
+    background-color: #1C1B20;
+}
+
+.product-slider{
+    height: 100%;
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-slider::-webkit-scrollbar{
+    display: none;
+}
+.text-product h1, p{
+    color: white;
+}
+.main-product .text-product{
+    padding: 80px 0 20px 0;
+    text-align: center;
+}
+.cards-product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+picture{
+    width: 100%;
+    height: 70%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+picture img{
+    width: 100%;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product{
+    margin-bottom: 50px;
+}
+.product:hover {
+    background-color: white;
+}
+.product:hover > .details > p > b {
+    color: black;
+}
+samp{
+    margin-top: 0;
+    color: #33567D;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9C7A67;
+}
+
+footer{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 100%;
+}
